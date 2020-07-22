@@ -1,0 +1,267 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#clear
+{
+	clear: both;
+}
+body
+{
+	font-family: arial, serif;
+}
+h1
+{
+	font-family: 'Crete Round', serif;
+	font-size: 45px;
+	color: #444;
+}
+h2
+{
+	font-size: 55px;
+	color: #444;
+}
+h3
+{
+	font-size: 30px;
+	color: #444;
+}
+h4
+{
+	font-size: 24px;
+	color: #444;
+}
+p
+{
+	line-height: 20px;
+	color: #777;
+}
+.orange
+{
+	font-family: 'Crete Round', serif;
+	font-size: 45px;
+	color: orange;
+}
+.wrapper
+{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+a
+{
+	text-decoration: none;
+	color: #444;
+}
+header nav ul li a:hover
+{
+	color: orange;
+}
+ul
+{
+	list-style: none;
+}
+
+header
+{
+	height: 120px;
+}
+header h1 
+{
+	float: left;
+	margin-top: 32px;
+}
+header nav
+{
+	float: right;
+	margin-top: 55px;
+		
+}
+header nav ul li
+{
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 20px;
+}
+#titre-menu
+{
+	font-weight: bold;
+}
+#menu
+{
+	height: 540px;
+	background: url(images/roadtrip.jpg) center;
+}
+#menu h2
+{
+	color: white;
+	font-weight: normal;
+	text-align: center;
+}
+.button-menu
+{
+	display: block;
+	height: 40px;
+	width: 100px;
+	background: orange;
+	color: white;
+	font-size: 20px;
+	margin: 0 auto;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+}
+.button-menu:hover
+{
+	background: #444;
+}
+
+#steps ul
+{
+	margin: 80px 0;
+}
+#steps ul li
+{
+	width: 300px;
+	float: left;
+	padding-top: 200px;
+	text-align: center;
+	margin-right: 10px;
+	padding-bottom: 100px;
+}
+#steps h4
+{
+	margin-bottom: 20px;
+}
+#step1
+{
+	background: url(images/nz1.png) no-repeat top center;
+	background-size: 170px;
+}
+#step2
+{
+	background: url(images/australie1.png) no-repeat top center;
+	background-size: 200px;
+}
+#step3
+{
+	background: url(images/canada1.png) no-repeat top center;
+	background-size: 220px;
+}
+#possibilities
+{
+	background-color: #efefef;
+	padding: 60px 0;
+}
+#possibilities article
+{
+	width: 460px;
+	height: 270px;
+	float: left;
+	border-radius: 10px;
+}
+#possibilities article:first-child
+{
+	margin-right: 20px;
+}
+.overlay
+{
+	background: rgba(255,255,255, 0.95);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	border-radius: 10px 0 0 10px;
+	box-sizing: border-box;
+}
+article h4
+{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+article p
+{
+	text-align: center;
+	font-style: italic;
+}
+.button2
+{
+	display: block;
+	height: 35px;
+	width: 100px;
+	background: orange;
+	color: white;
+	font-size: 13px;
+	margin: 20px auto;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+}
+.button2:hover
+{
+	background: #444;
+}
+#contact
+{
+	padding: 60px 0;
+	text-align: center;
+}
+#contact h3
+{
+	text-transform: uppercase;
+	margin: 0 auto 20px auto;
+	width: 400px;
+	border-bottom: 1px solid #ddd; 
+	padding-bottom: 20px;
+}
+form
+{
+	margin: 60px 0 20px 0;
+}
+label
+{
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+input[type="text"]
+{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 2px solid #ddd;
+	border-radius: 3px; 
+}
+.button3
+{
+	color: #fff;
+	font-size: 20px;
+	padding: 11px;
+	background-color: #ddd;
+	border-style: none;
+	border-radius: 3px;
+}
+.button3:hover
+{
+	color: #fff;
+	background-color: orange;
+}
+footer
+{
+	height: 120px;
+	background-color: #444;
+}
+footer h1
+{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+.copyright
+{
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
